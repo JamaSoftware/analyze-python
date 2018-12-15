@@ -1,3 +1,0 @@
-test:
-  post:
-    - pylint --output-format parseable --disable C0111 notion tests

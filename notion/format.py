@@ -16,8 +16,7 @@ class Format(object):
     def value(value):
         if isinstance(value, numbers.Number):
             return value
-        else:
-            raise NotionError('expected number, not {}'.format(value))
+        raise NotionError('expected number, not {}'.format(value))
 
     @staticmethod
     def report(report):
